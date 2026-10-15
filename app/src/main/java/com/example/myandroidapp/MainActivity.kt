@@ -99,7 +99,7 @@ fun AionThemeDashboard(modifier: Modifier = Modifier) {
     var isElyos by remember { mutableStateOf(true) }
 
     // Read real battery level if possible
-    val bm = context.getSystemService(ComponentActivity.BATTERY_SERVICE) as? BatteryManager
+    val bm = context.getSystemService(android.content.Context.BATTERY_SERVICE) as? BatteryManager
     val batteryPct = bm?.getIntProperty(BatteryManager.BATTERY_PROPERTY_CAPACITY) ?: 84
 
     val currentTime = remember {

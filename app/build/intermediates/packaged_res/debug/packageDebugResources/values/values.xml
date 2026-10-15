@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aion 2 Theme</string>
+    <string name="wallpaper_description">Aion 2 temalı aether kanatları, dönen rün çemberi ve etkileşimli ışık parçacıkları içeren canlı duvar kağıdı.</string>
+    <string name="wallpaper_name">Aion 2 Ethereal Live Wallpaper</string>
+    <style name="Theme.MyAndroidApp" parent="android:Theme.Material.Light.NoActionBar"/>
+</resources>
